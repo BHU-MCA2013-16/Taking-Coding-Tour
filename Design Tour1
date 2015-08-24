@@ -1,3 +1,4 @@
 Given a table STATION that holds data for five fields namely ID, CITY, STATE, NORTHERN LATITUDE and WESTERN LONGITUDE.
 
-select distinct CITY from STATION where mod(id,2)=0 order by CITY asc;
+Q:  Write a query to print the list of CITY in lexicographical order for even ID only. Do not print duplicates.
+ans:  select distinct CITY from STATION where mod(id,2)=0 order by CITY asc ;
